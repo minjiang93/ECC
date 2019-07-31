@@ -7,11 +7,12 @@ sample for starting flask program on docker:
 How to put docker images on google kubernetes:
 [https://cloud.google.com/kubernetes-engine/docs/tutorials/hello-app]
   {this process works on loca SDK:
+  
   gcloud init
 
   gcloud config set project [PROJECT_ID]
 
-  gcloud config set compute/zone us-west2-b 
+  gcloud config set compute/zone [ZONE_ID] 
 
   docker build -t gcr.io/ecc222/ecc-app:v1 .
 
